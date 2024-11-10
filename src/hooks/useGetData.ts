@@ -2,8 +2,15 @@ import { useState } from "react";
 import JsonData from "@/assets/data/estate_transactions.json";
 import { AllDataType, ResultDataType, selectedParamType } from "@/types";
 
+const defaultData: ResultDataType = {
+  prefectureCode: "",
+  prefectureName: "",
+  type: "",
+  years: [],
+};
+
 export const useGetData = () => {
-  const [data, setData] = useState<Partial<ResultDataType>>({});
+  const [data, setData] = useState<ResultDataType>(defaultData);
   const [aveData, setAveData] = useState<number>(0);
 
   /**

@@ -101,7 +101,7 @@ const Graph: React.FC<Props> = ({ data }) => {
             </linearGradient>
           </defs>
           <Bar dataKey="value">
-            {renderData.map((entry, index) => (
+            {renderData.map((_, index) => (
               <Cell key={`cell-${index}`} fill={`url(#colorUv${index})`} />
             ))}
           </Bar>
