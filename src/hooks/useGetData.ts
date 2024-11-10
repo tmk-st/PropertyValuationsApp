@@ -3,7 +3,7 @@ import JsonData from "@/assets/data/estate_transactions.json";
 import { AllDataType, ResultDataType, selectedParamType } from "@/types";
 
 export const useGetData = () => {
-  const [data, setData] = useState<ResultDataType | {}>({});
+  const [data, setData] = useState<Partial<ResultDataType>>({});
   const [aveData, setAveData] = useState<number>(0);
 
   /**

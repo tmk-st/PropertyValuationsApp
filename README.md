@@ -1,10 +1,4 @@
-<img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
-<img src="https://img.shields.io/badge/-TypeScript-fff.svg?logo=typescript&style=flat">
-<img src="https://img.shields.io/badge/-Tailwind.css-555.svg?logo=tailwindcss&style=flat">
-<img src="https://img.shields.io/badge/-Vite-EEE.svg?logo=vite&style=flat">
-<img src="https://img.shields.io/badge/-Biome-232F3E.svg?logo=biome&style=flat">
-<img src="https://img.shields.io/badge/-Font Awesome-F9DC3E.svg?logo=fontawesome&style=flat">
-<img src="https://img.shields.io/badge/-Vercel-019733.svg?logo=vercel&style=flat">
+<img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat"><img src="https://img.shields.io/badge/-TypeScript-fff.svg?logo=typescript&style=flat"><img src="https://img.shields.io/badge/-Tailwind.css-555.svg?logo=tailwindcss&style=flat"><img src="https://img.shields.io/badge/-Vite-EEE.svg?logo=vite&style=flat"><img src="https://img.shields.io/badge/-Biome-232F3E.svg?logo=biome&style=flat"><img src="https://img.shields.io/badge/-Font Awesome-F9DC3E.svg?logo=fontawesome&style=flat"><img src="https://img.shields.io/badge/-Vercel-019733.svg?logo=vercel&style=flat">
 
 <br />
 

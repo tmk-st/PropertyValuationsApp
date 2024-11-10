@@ -1,10 +1,9 @@
-import { useState } from "react";
 import { Divider } from "@/components";
 import SelectLocation from "./SelectLocation";
 import SelectYear from "./SelectYear";
 import SelectType from "./SelectType";
 import DownloadBtn from "./DownloadBtn";
-import { GetDataType, selectedParamType } from "@/types";
+import { GetDataType } from "@/types";
 import useFiltering from "@/hooks/useFiltering";
 
 type Props = {
