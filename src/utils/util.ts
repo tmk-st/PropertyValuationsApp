@@ -1,4 +1,4 @@
-import { ResultDataType } from "@/types";
+import type { ResultDataType } from "@/types";
 
 /**
  * オブジェクトの値の空判定
@@ -6,8 +6,8 @@ import { ResultDataType } from "@/types";
  * @returns {boolean} - 空の場合true
  */
 export const isEmptyObject = (obj: ResultDataType) => {
-  return (
-    obj === null ||
-    Object.values(obj).every((value) => value === "" || value.length === 0)
-  );
+	return (
+		obj === null ||
+		Object.values(obj).every((value) => value === "" || value.length === 0)
+	);
 };
