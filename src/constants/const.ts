@@ -18,3 +18,11 @@ export const DISPLAY_TYPE = [
 	{ id: 1, value: "住宅地" },
 	{ id: 2, value: "商業地" },
 ];
+
+// グラフ用カラーコード
+export const GRADATION_COLOR = {
+	LEFT_BAR_TOP: "#009984",
+	LEFT_BAR_BOTTOM: "#97BF4A",
+	RIGHT_BAR_TOP: "#706D65",
+	RIGHT_BAR_BOTTOM: "#57544C",
+};

@@ -14,7 +14,7 @@ const SelectType: React.FC<Props> = ({ callback, checked }) => {
 
 	return (
 		<div>
-			<div className="w-[311px] h-[84px] flex justify-between items-end">
+			<div className="w-[309px] h-[84px] flex justify-between items-end">
 				<div className="h-[60px]">
 					<div className="flex gap-1 items-center">
 						<FaShapes />

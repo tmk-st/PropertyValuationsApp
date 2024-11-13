@@ -1,9 +1,10 @@
 import { IconContext } from "react-icons";
 import { FaSquarePollVertical } from "react-icons/fa6";
+import Divider from "./Divider";
 const Title = () => {
 	return (
 		<>
-			<div className="text-white h-14 flex gap-2">
+			<div className="text-white h-[56px] flex gap-2">
 				<div className="self-center">
 					<IconContext.Provider value={{ size: "30px" }}>
 						<FaSquarePollVertical />
@@ -16,7 +17,7 @@ const Title = () => {
 					※取引面積1㎡あたり
 				</span>
 			</div>
-			<div className="border-t border-gray-600" />
+			<Divider />
 		</>
 	);
 };

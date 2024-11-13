@@ -8,8 +8,8 @@ export default {
       },
       colors: {
         KEY: "#0071C1",
-        BG: "#E5E5E5",
-        GRAY: "#A7A6A5"
+        BG: "#F0F3F5",
+        GRAY: "#A7A6A5",
       },
     },
   },

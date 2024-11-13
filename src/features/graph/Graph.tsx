@@ -1,3 +1,4 @@
+import { GRADATION_COLOR } from "@/constants/const";
 import { useGetData } from "@/hooks/useGetData";
 import type { CustomTickProps, ResultDataType } from "@/types";
 import { useEffect } from "react";
@@ -92,12 +93,12 @@ const Graph: React.FC<Props> = ({ data }) => {
 					/>
 					<defs>
 						<linearGradient id="colorUv0" x1="0" y1="0" x2="1" y2="1">
-							<stop offset="5%" stopColor="#009984" />
-							<stop offset="95%" stopColor="#97BF4A" />
+							<stop offset="5%" stopColor={GRADATION_COLOR.LEFT_BAR_TOP} />
+							<stop offset="95%" stopColor={GRADATION_COLOR.LEFT_BAR_BOTTOM} />
 						</linearGradient>
 						<linearGradient id="colorUv1" x1="0" y1="0" x2="1" y2="1">
-							<stop offset="5%" stopColor="#706D65" />
-							<stop offset="95%" stopColor="#57544C" />
+							<stop offset="5%" stopColor={GRADATION_COLOR.RIGHT_BAR_TOP} />
+							<stop offset="95%" stopColor={GRADATION_COLOR.RIGHT_BAR_BOTTOM} />
 						</linearGradient>
 					</defs>
 					<Bar dataKey="value">

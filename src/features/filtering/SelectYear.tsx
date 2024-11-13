@@ -18,7 +18,7 @@ const SelectYear: React.FC<Props> = ({ callback }) => {
 
 	return (
 		<div>
-			<div className="w-[311px] h-[88px] flex justify-between items-center">
+			<div className="w-[309px] h-[88px] flex justify-between items-center">
 				<div className="flex gap-1 items-center">
 					<FaCalendarCheck />
 					<span className="text-sm">年度</span>

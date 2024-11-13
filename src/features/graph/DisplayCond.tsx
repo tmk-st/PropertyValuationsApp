@@ -10,7 +10,7 @@ const DisplayCond: React.FC<Props> = ({ data }) => {
 	const { typeStr, prefectureName, year } = useDisplayCond(data);
 
 	return (
-		<div className="flex text-white w-[498px] h-[30px] justify-between text-2xl">
+		<div className="flex text-white w-[402px] h-[30px] justify-between text-2xl">
 			<div className="flex items-center gap-2">
 				<FaLocationDot />
 				<span>{prefectureName}</span>
