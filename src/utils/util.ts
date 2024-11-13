@@ -1,13 +1,12 @@
-import type { ResultDataType } from "@/types";
+import type { ResultDataType, selectedParamType } from "@/types";
 
 /**
  * オブジェクトの値の空判定
- * @param {object | null} obj - 対象オブジェクト
- * @returns {boolean} - 空の場合true
+ * @param {object} obj - 対象オブジェクト
+ * @returns {boolean} - 値が一つでもセットされていない場合true
  */
-export const isEmptyObject = (obj: ResultDataType) => {
-	return (
-		obj === null ||
-		Object.values(obj).every((value) => value === "" || value.length === 0)
+export const isEmptyObject = (obj: ResultDataType | selectedParamType) => {
+	return Object.values(obj).some(
+		(value) => value === "" || value === 0 || value.length === 0,
 	);
 };
